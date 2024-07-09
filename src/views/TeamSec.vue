@@ -64,7 +64,7 @@
   import team2img from "../assets/team-2.jpg";
   import team3img from "../assets/team-3.jpg";
   import team4img from "../assets/team-4.jpg";
-
+  import teambgimg from "../assets/sec-6-bg.png"
 export default {
   data() {
     return {
@@ -74,7 +74,7 @@ export default {
         { urls: team3img, title: "Amanda Lair", descrip: "Management" },
         { urls: team4img, title: "Calvin Carlo", descrip: "Management" },
       ],
-      bgsec6img : '/src/assets/sec-6-bg.png',
+      bgsec6img : teambgimg,
       workProcess : [
         {
           title:'Concept',
