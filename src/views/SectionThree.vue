@@ -21,7 +21,9 @@
  
 </template>
 
-<script></script>
+<script>
+
+</script>
 
 <style>
 .sec-3-bg-img {

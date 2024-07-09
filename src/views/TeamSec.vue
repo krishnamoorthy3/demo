@@ -60,14 +60,19 @@
   </section>
 </template>
 <script>
+  import team1img from "../assets/team_1.jpg";
+  import team2img from "../assets/team-2.jpg";
+  import team3img from "../assets/team-3.jpg";
+  import team4img from "../assets/team-4.jpg";
+
 export default {
   data() {
     return {
       teamUrl: [
-        { urls: '/src/assets/team_1.jpg', title: "Cristino Murphy", descrip: "Management" }, 
-        { urls: "/src/assets/team-2.jpg", title: "Leosy Clony", descrip: "Management" },
-        { urls: "/src/assets/team-3.jpg", title: "Amanda Lair", descrip: "Management" },
-        { urls: "/src/assets/team-4.jpg", title: "Calvin Carlo", descrip: "Management" },
+        { urls: team1img, title: "Cristino Murphy", descrip: "Management" }, 
+        { urls: team2img, title: "Leosy Clony", descrip: "Management" },
+        { urls: team3img, title: "Amanda Lair", descrip: "Management" },
+        { urls: team4img, title: "Calvin Carlo", descrip: "Management" },
       ],
       bgsec6img : '/src/assets/sec-6-bg.png',
       workProcess : [

@@ -30,13 +30,16 @@
 </template>
 
 <script>
+import newsimg1 from"../assets/aa-1.jpg";
+import newsimg2 from"../assets/aa-2.jpg";
+import newsimg3 from"../assets/aa-3.jpg";
     export default{
         data(){
             return{
                 teamUrl: [
-                            { urls: '/src/assets/aa-1.jpg', title: "Building Your Corporate Identity", descrip: "The most well-known dummy text is the 'Lorem Ipsum', in the 16th century." }, 
-                            { urls: "/src/assets/aa2.jpg", title: "The Dark Side of Overnight Success", descrip: "The most well-known dummy text is the 'Lorem Ipsum', in the 16th century." },
-                            { urls: "/src/assets/aa3.jpg", title: "The Right Hand of Business IT World", descrip: "The most well-known dummy text is the 'Lorem Ipsum', in the 16th century." },
+                            { urls: newsimg1, title: "Building Your Corporate Identity", descrip: "The most well-known dummy text is the 'Lorem Ipsum', in the 16th century." }, 
+                            { urls: newsimg2, title: "The Dark Side of Overnight Success", descrip: "The most well-known dummy text is the 'Lorem Ipsum', in the 16th century." },
+                            { urls: newsimg3, title: "The Right Hand of Business IT World", descrip: "The most well-known dummy text is the 'Lorem Ipsum', in the 16th century." },
                         ]
             }
         }
