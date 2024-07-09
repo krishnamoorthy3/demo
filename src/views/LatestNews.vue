@@ -31,8 +31,8 @@
 
 <script>
 import newsimg1 from"../assets/aa-1.jpg";
-import newsimg2 from"../assets/aa-2.jpg";
-import newsimg3 from"../assets/aa-3.jpg";
+import newsimg2 from "../assets/aa2.jpg";
+import newsimg3 from"../assets/aa3.jpg";
     export default{
         data(){
             return{
