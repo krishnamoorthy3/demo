@@ -1,3 +1,4 @@
+
 <template>
   <div class="sec-4-wrapper">
     <div class="container">
@@ -29,12 +30,19 @@
   </div>
 </template>
 <script>
+
+import galleryImg from '../assets/gallery-1.jpg';
+import galleryImg2 from '../assets/gallery-2.jpg';
+
+import galleryImg3 from '../assets/gallery-3.jpg';
+
+
 export default {
   data() {
     return {
       galleryImg: [
         {
-          url: "/src/assets/gallery-1.jpg",
+          url: galleryImg,
           title: "Mockup Collection",
           content: "Branding",
           link:'#',

@@ -4,6 +4,7 @@
     <MiddleComponent/>
     <section-content/>
     <section-three/>
+    <section-four/>
     <price-plan/>
     <team-sec/>
     <latest-news/>
